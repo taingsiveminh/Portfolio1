@@ -3,23 +3,18 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import GlowCard from './GlowCard';
+import { GoShopeMockup, TSMSolutionsMockup, YGHAgricMockup, MinhWebFunMockup } from './ProjectMockups';
+
+const mockupsMap = {
+  goshope: GoShopeMockup,
+  'tsm-solutions': TSMSolutionsMockup,
+  'ygh-agric': YGHAgricMockup,
+  'minh-web-fun': MinhWebFunMockup,
+};
 
 export default function ProjectCard({ project, onOpenDetails }) {
   const { lang, t } = useLanguage();
-
-  const getGradientByAccent = (accent) => {
-    switch (accent) {
-      case 'purple':
-        return 'from-purple-900/40 via-indigo-900/20 to-slate-900/40';
-      case 'emerald':
-        return 'from-emerald-900/40 via-teal-900/20 to-slate-900/40';
-      case 'cyan':
-        return 'from-cyan-900/40 via-blue-900/20 to-slate-900/40';
-      case 'blue':
-      default:
-        return 'from-blue-900/40 via-indigo-900/20 to-slate-900/40';
-    }
-  };
+  const MockupComponent = mockupsMap[project.id] || GoShopeMockup;
 
   const getBorderColor = (accent) => {
     switch (accent) {
@@ -41,43 +36,9 @@ export default function ProjectCard({ project, onOpenDetails }) {
       className="h-full flex"
     >
       <GlowCard glowColor={project.accentColor} className="flex flex-col h-full w-full">
-        {/* Card Mockup / Header Preview */}
-        <div className={`relative h-48 sm:h-52 w-full overflow-hidden bg-gradient-to-br ${getGradientByAccent(project.accentColor)} border-b border-white/[0.06] p-5 flex flex-col justify-between group-hover:brightness-105 transition-all duration-300`}>
-          <div className="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none" />
-
-          {/* Top badges */}
-          <div className="relative z-10 flex items-center justify-between gap-2">
-            <span className={`text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-black/40 backdrop-blur-md border ${getBorderColor(project.accentColor)}`}>
-              {project.badge[lang] || project.badge.en}
-            </span>
-
-            {project.stats && (
-              <span className="text-[11px] font-mono text-slate-300 bg-white/[0.06] px-2.5 py-1 rounded-full backdrop-blur-md border border-white/[0.08]">
-                {Object.values(project.stats)[0]}
-              </span>
-            )}
-          </div>
-
-          {/* Mockup Center Graphic */}
-          <div className="relative z-10 my-auto">
-            <div className="bg-[#090b14]/90 rounded-xl p-3 border border-white/[0.08] shadow-2xl backdrop-blur-md max-w-[280px] mx-auto transform group-hover:-translate-y-1 transition-transform duration-300">
-              <div className="flex items-center gap-1.5 pb-2 border-b border-white/[0.06]">
-                <div className="w-2.5 h-2.5 rounded-full bg-rose-500/80" />
-                <div className="w-2.5 h-2.5 rounded-full bg-amber-500/80" />
-                <div className="w-2.5 h-2.5 rounded-full bg-emerald-500/80" />
-                <span className="text-[10px] text-slate-400 font-mono ml-auto truncate max-w-[140px]">
-                  {project.liveUrl.replace('https://', '')}
-                </span>
-              </div>
-              <div className="pt-2 font-mono text-[11px] text-slate-300 flex items-center justify-between">
-                <span className="text-blue-400 font-semibold">{project.title}</span>
-                <span className="text-emerald-400 text-[10px] flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                  Live
-                </span>
-              </div>
-            </div>
-          </div>
+        {/* Card Mockup Showcase Header */}
+        <div className="relative h-56 sm:h-60 w-full overflow-hidden bg-[#090b14]/90 border-b border-white/[0.07] group-hover:brightness-105 transition-all duration-300">
+          <MockupComponent />
         </div>
 
         {/* Card Body */}

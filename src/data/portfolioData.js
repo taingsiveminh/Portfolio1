@@ -3,222 +3,282 @@ export const personalInfo = {
   nameKh: "តាំង ស៊ីវម៉ិញ",
   alias: "TSMDev",
   role: {
-    en: "Full-Stack Developer",
-    kh: "អ្នកអភិវឌ្ឍន៍ Full-Stack",
+    en: "Full-Stack Developer & CS Student",
+    kh: "អ្នកអភិវឌ្ឍន៍ Full-Stack & និស្សិត IT",
   },
-  statusBadge: {
-    en: "Available for opportunities",
-    kh: "ត្រៀមខ្លួនសម្រាប់ឱកាសការងារថ្មីៗ",
+  location: {
+    city: "Phnom Penh",
+    country: "Cambodia",
+    cityKh: "រាជធានីភ្នំពេញ",
+    countryKh: "កម្ពុជា",
+    timezone: "Asia/Phnom_Penh",
+    gmt: "GMT+7"
+  },
+  availability: {
+    status: "Available for internships & freelance",
+    statusKh: "បើកទទួលការងារ កម្មសិក្សា & Freelance",
+    badge: "Available for Hire",
+    badgeKh: "បើកទទួលគម្រោងថ្មីៗ"
   },
   headline: {
-    en: "Building digital experiences that actually work.",
-    kh: "បង្កើតបទពិសោធន៍ឌីជីថលដែលដំណើរការជាក់ស្តែង & មានប្រសិទ្ធភាពខ្ពស់។",
+    en: "Crafting reliable full-stack web applications & practical SaaS products.",
+    kh: "បង្កើតកម្មវិធី Web Full-Stack ដែលរឹងមាំ និងផលិតផល SaaS ដែលមានប្រសិទ្ធភាពខ្ពស់។",
   },
   subheadline: {
-    en: "I'm Taing SiveMinh, a Full-Stack Developer focused on building modern web applications, scalable backends, and useful digital products.",
-    kh: "ខ្ញុំបាទឈ្មោះ តាំង ស៊ីវម៉ិញ (Taing SiveMinh) ជា Full-Stack Developer ដែលផ្តោតលើការបង្កើតគេហទំព័រទំនើប ប្រព័ន្ធ Backend រឹងមាំ និងផលិតផលឌីជីថលដែលមានប្រយោជន៍។",
+    en: "I'm Taing SiveMinh, a 20-year-old Computer Science student and software builder from Phnom Penh. I specialize in React, Java Spring Boot, MySQL, and cloud deployments.",
+    kh: "ខ្ញុំបាទឈ្មោះ តាំង ស៊ីវម៉ិញ អាយុ ២០ ឆ្នាំ ជានិស្សិតវិទ្យាសាស្ត្រកុំព្យូទ័រនៅរាជធានីភ្នំពេញ។ ខ្ញុំជំនាញលើ React, Java Spring Boot, MySQL និងការ Deploy លើ Cloud។",
   },
-  currentStatus: {
-    title: {
-      en: "Currently building GoShope Full-Stack SaaS Platform",
-      kh: "កំពុងបង្កើត GoShope Full-Stack SaaS Platform",
+  currentFocus: {
+    project: "GoShope SaaS",
+    description: {
+      en: "Automated e-commerce storefronts with ABA PayWay checkout & instant Telegram dispatchers.",
+      kh: "ប្រព័ន្ធលក់ទំនិញស្វ័យប្រវត្តិ ភ្ជាប់ការទូទាត់ ABA PayWay និងការបញ្ជូនសារ Telegram។",
     },
-    isOnline: true,
-    tag: {
-      en: "Production / Active Development",
-      kh: "ដាក់ឱ្យប្រើប្រាស់ / កំពុងបន្តអភិវឌ្ឍ",
-    },
-    metrics: "React + Spring Boot + Telegram Webhooks"
+    stack: ["Spring Boot", "React", "MySQL", "Telegram API", "ABA PayWay"],
+    status: "In Active Production"
   },
   bio: {
     en: [
-      "I'm a Computer Science student and Full-Stack Developer passionate about turning ideas into real-world products.",
-      "I enjoy working across frontend, backend, databases, APIs, and deployment. My goal is to build software that is not only visually impressive but also reliable, scalable, and useful."
+      "I started coding in 2023 driven by a curiosity to understand how software powers everyday services. Over the last 3 years, I've transitioned from crafting responsive frontends to designing full-stack architectures with Java Spring Boot, relational databases, and payment APIs.",
+      "I believe great software isn't just about flashy visuals — it's about predictable latency, rock-solid reliability, clean database schemas, and solving real user friction."
     ],
     kh: [
-      "ខ្ញុំគឺជានិស្សិតផ្នែកវិទ្យាសាស្ត្រកុំព្យូទ័រ (Computer Science) និងជា Full-Stack Developer ដែលមានចំណង់ចំណូលចិត្តខ្ពស់ក្នុងការប្រែក្លាយគំនិតច្នៃប្រឌិតទៅជាផលិតផលបច្ចេកវិទ្យាជាក់ស្តែង។",
-      "ខ្ញុំចូលចិត្តធ្វើការលើ Frontend, Backend, Database, APIs និងការដាក់ឱ្យដំណើរការលើ Cloud (Deployment)។ គោលដៅរបស់ខ្ញុំគឺបង្កើតកម្មវិធីដែលមានភាពទាក់ទាញ ដំណើរការរហ័ស មានស្ថេរភាពខ្ពស់ និងផ្តល់ប្រយោជន៍ពិតប្រាកដ។"
+      "ខ្ញុំបានចាប់ផ្តើមរៀនសរសេរកូដនៅឆ្នាំ ២០២៣ ដោយសារការចង់ដឹងពីរបៀបដែលប្រព័ន្ធកុំព្យូទ័រដំណើរការ។ ក្នុងរយៈពេល ៣ ឆ្នាំនេះ ខ្ញុំបានអភិវឌ្ឍពីការរចនា Frontend រហូតដល់ការរៀបចំប្រព័ន្ធ Full-Stack ជាមួយ Spring Boot, Database និង Payment Gateways។",
+      "ខ្ញុំជឿជាក់ថាកម្មវិធីល្អមិនមែនគ្រាន់តែមើលទៅស្អាតនោះទេ ប៉ុន្តែត្រូវមានល្បឿនលឿន មានសុវត្ថិភាព ស្ថេរភាពខ្ពស់ និងដោះស្រាយបញ្ហាជាក់ស្តែងរបស់អ្នកប្រើប្រាស់។"
     ]
   },
   stats: [
     {
       value: "20",
-      label: {
-        en: "Years Old",
-        kh: "អាយុ ២០ ឆ្នាំ",
-      },
-      subtext: {
-        en: "Driven, fast-learning developer",
-        kh: "អ្នកអភិវឌ្ឍន៍វ័យក្មេង & រៀនឆាប់ចេះ",
-      }
+      label: { en: "Years Old", kh: "អាយុ ២០ ឆ្នាំ" },
+      detail: { en: "Born 2006 • Based in Phnom Penh", kh: "កើតឆ្នាំ ២០០៦ • នៅភ្នំពេញ" }
     },
     {
       value: "10+",
-      label: {
-        en: "Projects Built",
-        kh: "គម្រោងបានបញ្ចប់ ១០+",
-      },
-      subtext: {
-        en: "From SaaS to client solutions",
-        kh: "ពីប្រព័ន្ធ SaaS រហូតដល់គេហទំព័រអាជីវកម្ម",
-      }
+      label: { en: "Shipped Projects", kh: "គម្រោងបានបញ្ចប់ ១០+" },
+      detail: { en: "Production SaaS, Client Portals & Web Apps", kh: "ប្រព័ន្ធ SaaS, គេហទំព័រអាជីវកម្ម & Web Apps" }
     },
     {
       value: "3+",
-      label: {
-        en: "Years Learning & Building",
-        kh: "បទពិសោធន៍រៀន & បង្កើត ៣+ ឆ្នាំ",
-      },
-      subtext: {
-        en: "Deep foundational & hands-on experience",
-        kh: "មូលដ្ឋានគ្រឹះរឹងមាំ & ការអនុវត្តជាក់ស្តែង",
-      }
+      label: { en: "Years Engineering", kh: "បទពិសោធន៍រៀន & បង្កើត ៣+ ឆ្នាំ" },
+      detail: { en: "Continuous learning & daily commits", kh: "រៀនសូត្រឥតឈប់ឈរ និងអនុវត្តជាក់ស្តែង" }
+    },
+    {
+      value: "99.9%",
+      label: { en: "Uptime Focus", kh: "គោលដៅស្ថេរភាព 99.9%" },
+      detail: { en: "Resilient APIs & Cloud Architectures", kh: "ប្រព័ន្ធ API រឹងមាំ និង Cloud Deployment" }
     }
   ],
   socials: {
-    github: "https://github.com/tsmdev",
+    github: "https://github.com/taingsiveminh",
     linkedin: "https://linkedin.com/in/taingsiveminh",
     telegram: "https://t.me/tsmdev",
     facebook: "https://facebook.com/taingsiveminh"
   },
   contact: {
-    email: "contact@tsmdev.me", // Editable
-    telegram: "@tsmdev", // Editable
-    github: "github.com/tsmdev", // Editable
-    linkedin: "linkedin.com/in/taingsiveminh", // Editable
-    location: {
-      en: "Phnom Penh, Cambodia",
-      kh: "រាជធានីភ្នំពេញ កម្ពុជា",
-    },
-    availability: {
-      en: "Open to Full-time, Internship & Freelance",
-      kh: "បើកទទួលការងារពេញម៉ោង កម្មសិក្សា & Freelance",
+    email: "contact@tsmdev.me",
+    telegram: "@tsmdev",
+    github: "github.com/taingsiveminh",
+    linkedin: "linkedin.com/in/taingsiveminh",
+    location: "Phnom Penh, Cambodia",
+  }
+};
+
+export const codeSnippets = {
+  goshope: {
+    title: "OrderWebhookController.java",
+    language: "java",
+    code: `@RestController
+@RequestMapping("/api/v1/orders")
+@RequiredArgsConstructor
+public class OrderWebhookController {
+
+    private final OrderService orderService;
+    private final TelegramNotificationService telegramService;
+    private final AbaPaywayService paywayService;
+
+    @PostMapping("/checkout")
+    public ResponseEntity<OrderResponse> processOrder(
+            @Valid @RequestBody CheckoutRequest request) {
+        
+        // 1. Verify ABA PayWay payment hash signature
+        paywayService.verifyTransaction(request.getTransactionId());
+
+        // 2. Persist order entity & decrement inventory
+        Order order = orderService.createOrder(request);
+
+        // 3. Dispatch asynchronous Telegram bot alert
+        telegramService.notifyMerchantAsync(order);
+
+        return ResponseEntity.ok(OrderResponse.from(order));
     }
+}`
+  },
+  reactHook: {
+    title: "useCartDispatcher.js",
+    language: "javascript",
+    code: `import { create } from 'zustand';
+
+export const useCartStore = create((set, get) => ({
+  items: [],
+  merchantId: null,
+  
+  addItem: (product) => set((state) => {
+    const existing = state.items.find(i => i.id === product.id);
+    if (existing) {
+      return {
+        items: state.items.map(i => 
+          i.id === product.id ? { ...i, qty: i.qty + 1 } : i
+        )
+      };
+    }
+    return { items: [...state.items, { ...product, qty: 1 }] };
+  }),
+
+  generateTelegramSummary: () => {
+    const { items } = get();
+    const total = items.reduce((acc, i) => acc + (i.price * i.qty), 0);
+    return items.map(i => \`• \${i.name} x\${i.qty} — $\${i.price * i.qty}\`).join('\\n') 
+      + \`\\n\\n💵 Total: $\${total.toFixed(2)}\`;
+  }
+}));`
   }
 };
 
 export const servicesData = [
   {
-    id: "web-dev",
-    title: {
-      en: "Web Development",
-      kh: "ការអភិវឌ្ឍគេហទំព័រ (Web Dev)",
-    },
-    description: {
-      en: "Modern, blazing-fast, and responsive websites and web applications built with clean code and pixel-perfect attention to detail.",
-      kh: "បង្កើតគេហទំព័រទំនើប ល្បឿនលឿន និងដំណើរការយ៉ាងស្រស់ស្អាតលើគ្រប់ឧបករណ៍ (Mobile/Desktop) ជាមួយនឹងកូដស្អាត និងស្តង់ដារខ្ពស់។",
-    },
-    icon: "Layout",
-    tags: ["React", "Tailwind CSS", "Next.js", "Performance", "Responsive UI"],
-    gradient: "from-blue-500/20 to-cyan-500/20"
-  },
-  {
     id: "fullstack-dev",
     title: {
-      en: "Full-Stack Development",
-      kh: "ការអភិវឌ្ឍ Full-Stack",
+      en: "Full-Stack Web Engineering",
+      kh: "វិស្វកម្ម Full-Stack Web",
+    },
+    tagline: {
+      en: "End-to-End React + Spring Boot Architecture",
+      kh: "រចនាសម្ព័ន្ធពេញលេញ React + Spring Boot",
     },
     description: {
-      en: "End-to-end architectures combining reactive frontend interfaces with robust backend business logic, secure RESTful APIs, and optimized databases.",
-      kh: "ការរៀបចំប្រព័ន្ធពីដើមដល់ចប់ ដោយរួមបញ្ចូលគ្នារវាង Frontend រស់រវើក ជាមួយ Backend រឹងមាំ សុវត្ថិភាពខ្ពស់ និង Database មានប្រសិទ្ធភាព។",
+      en: "Building comprehensive web applications with reactive React frontends and high-throughput Java Spring Boot APIs, connected to optimized relational databases.",
+      kh: "អភិវឌ្ឍកម្មវិធី Web ពេញលេញជាមួយ Frontend React ល្បឿនលឿន និង Backend Spring Boot រឹងមាំ ភ្ជាប់ជាមួយ MySQL/PostgreSQL។",
     },
+    metrics: "RESTful APIs • Spring Data JPA • JWT Auth",
     icon: "Layers",
-    tags: ["Spring Boot", "REST APIs", "MySQL", "PostgreSQL", "Auth & JWT"],
-    gradient: "from-purple-500/20 to-indigo-500/20"
+    tags: ["React 18", "Java Spring Boot", "MySQL", "REST APIs", "Tailwind CSS"],
+    accent: "blue"
   },
   {
     id: "saas-dev",
     title: {
-      en: "SaaS Development",
-      kh: "ការអភិវឌ្ឍប្រព័ន្ធ SaaS",
+      en: "SaaS Product Engineering",
+      kh: "ការបង្កើតផលិតផល SaaS",
+    },
+    tagline: {
+      en: "Payments, Webhooks & Automated Notifications",
+      kh: "ប្រព័ន្ធទូទាត់, Webhooks & សារស្វ័យប្រវត្តិ",
     },
     description: {
-      en: "Building scalable web products from initial concept to deployment with integrated subscriptions, payment gateways, and automated webhook workflows.",
-      kh: "បង្កើតផលិតផល SaaS ពីដំណាក់កាលគំនិតរហូតដល់ការដាក់ឱ្យប្រើប្រាស់ ភ្ជាប់ជាមួយប្រព័ន្ធទូទាត់ប្រាក់ (ABA PayWay) និងការជូនដំណឹងស្វ័យប្រវត្តិតាម Telegram។",
+      en: "Transforming software concepts into production SaaS products with payment gateway checkouts (ABA PayWay), Telegram bot dispatchers, and multi-tenant logic.",
+      kh: "បង្កើតប្រព័ន្ធ SaaS ជាក់ស្តែងភ្ជាប់ការទូទាត់ប្រាក់ ABA PayWay, ការជូនដំណឹង Telegram Bot ស្វ័យប្រវត្តិ និងផ្ទាំងគ្រប់គ្រងទិន្នន័យ។",
     },
+    metrics: "ABA PayWay • Telegram Bot API • Multi-tenant",
     icon: "Rocket",
-    tags: ["SaaS Architecture", "ABA PayWay", "Telegram Bot API", "Multi-tenant"],
-    gradient: "from-emerald-500/20 to-teal-500/20"
+    tags: ["SaaS Architecture", "ABA PayWay", "Telegram Bot API", "Redis", "Webhooks"],
+    accent: "purple"
+  },
+  {
+    id: "web-dev",
+    title: {
+      en: "High-Performance Frontend",
+      kh: "Frontend ល្បឿនលឿន & រស់រវើក",
+    },
+    tagline: {
+      en: "Pixel-Perfect, Accessible & Responsive UI",
+      kh: "រចនាបទស្រស់ស្អាត គ្មានបញ្ហាលើគ្រប់អេក្រង់",
+    },
+    description: {
+      en: "Crafting modern, fast, and accessible user interfaces with clean component architectures, smooth micro-interactions, and 100/100 Lighthouse performance scores.",
+      kh: "បង្កើត Interface ទំនើប ស្រាល និងល្បឿនលឿន ដោយប្រើប្រាស់ Framer Motion, Tailwind CSS និង Component-driven Architecture។",
+    },
+    metrics: "60 FPS Animations • Mobile First • Sub-second load",
+    icon: "Layout",
+    tags: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Responsive Design"],
+    accent: "emerald"
   },
   {
     id: "ai-solutions",
     title: {
-      en: "AI-Powered Solutions",
-      kh: "ដំណោះស្រាយដំណើរការដោយ AI",
+      en: "AI & Smart API Integrations",
+      kh: "ការភ្ជាប់ AI & Smart APIs",
+    },
+    tagline: {
+      en: "Practical LLM Workflows & Automations",
+      kh: "ប្រព័ន្ធស្វ័យប្រវត្តិកម្ម & AI ជាក់ស្តែង",
     },
     description: {
-      en: "Integrating modern AI models, smart automations, and intelligent LLM APIs into user-friendly applications to solve practical workflows.",
-      kh: "ការភ្ជាប់បច្ចេកវិទ្យា AI ទំនើប និង Smart APIs ចូលទៅក្នុងគេហទំព័រ និងកម្មវិធី ដើម្បីជួយសម្រួលការងារឱ្យកាន់តែងាយស្រួល និងរហ័ស។",
+      en: "Integrating modern LLM endpoints (Gemini / OpenAI API) and webhook automation pipelines into web workflows to eliminate repetitive manual tasks.",
+      kh: "ការភ្ជាប់ម៉ូឌែល AI និង APIs ទំនើបចូលទៅក្នុងគេហទំព័រ ដើម្បីជួយសម្រួលការងារ និងបង្កើតមុខងារឆ្លាតវៃ។",
     },
+    metrics: "Gemini / OpenAI API • JSON Schema • Automated Pipelines",
     icon: "Sparkles",
-    tags: ["OpenAI / Gemini API", "Intelligent Automations", "Smart Workflows", "Vector Search"],
-    gradient: "from-amber-500/20 to-orange-500/20"
+    tags: ["Gemini API", "OpenAI", "Prompt Engineering", "Automation", "JSON APIs"],
+    accent: "cyan"
   }
 ];
 
 export const journeyTimeline = [
   {
     year: "2023",
-    title: {
-      en: "The Foundation & First Steps",
-      kh: "គ្រឹះដំបូង & ការចាប់ផ្តើម",
-    },
+    role: { en: "Self-Directed Learning & CS Foundations", kh: "ការចាប់ផ្តើម & គ្រឹះវិទ្យាសាស្ត្រកុំព្យូទ័រ" },
+    title: { en: "First Lines of Code & Core Web Fundamentals", kh: "ការសរសេរកូដដំបូង & គ្រឹះគេហទំព័រ" },
     description: {
-      en: "Started seriously learning programming and web development. Mastered foundational web technologies (HTML, CSS, JavaScript) and developed core algorithms and problem-solving skills in Computer Science.",
-      kh: "ចាប់ផ្តើមរៀនសរសេរកូដ និងអភិវឌ្ឍគេហទំព័រយ៉ាងសកម្ម។ ចេះស្ទាត់ជំនាញគ្រឹះ (HTML, CSS, JavaScript) និងពង្រឹងក្បួនដោះស្រាយបញ្ហា (Algorithms & CS Fundamentals)។",
+      en: "Began studying Computer Science seriously. Mastered HTML5 semantic markup, CSS3 styling paradigms, and JavaScript ES6+ fundamentals. Built algorithmic intuition and structured problem solving.",
+      kh: "ចាប់ផ្តើមរៀនសរសេរកូដ និងវិទ្យាសាស្ត្រកុំព្យូទ័រ។ សិក្សាស្ទាត់ជំនាញគ្រឹះ HTML5, CSS3, JavaScript ES6+ និងការដោះស្រាយបញ្ហាតាមក្បួន Algorithm។",
     },
-    skills: ["HTML5", "CSS3", "JavaScript ES6+", "Git Basics", "CS Fundamentals"],
+    skills: ["HTML5", "CSS3", "JavaScript ES6+", "Data Structures", "Git / GitHub"],
     highlight: {
-      en: "Built first interactive web applications and explored frontend styling libraries.",
-      kh: "បង្កើតកម្មវិធី Web ដំបូងៗ និងសិក្សាស៊ីជម្រៅលើបច្ចេកវិទ្យា Frontend។",
+      en: "Built interactive web tools and committed to daily coding discipline.",
+      kh: "បង្កើតកម្មវិធី Web ដំបូងៗ និងប្តេជ្ញាហាត់សរសេរកូដជារៀងរាល់ថ្ងៃ។",
     }
   },
   {
     year: "2024",
-    title: {
-      en: "Frontend Mastery & Full-Stack Exploration",
-      kh: "ភាពស្ទាត់ជំនាញ Frontend & ការឈានចូល Full-Stack",
-    },
+    role: { en: "Frontend Specialist & Full-Stack Entry", kh: "ជំនាញ Frontend & ការឈានចូល Full-Stack" },
+    title: { en: "React Ecosystem & Client Web Deployments", kh: "React Ecosystem & ការដាក់ឱ្យដំណើរការគេហទំព័រ" },
     description: {
-      en: "Built multiple frontend and backend projects while pursuing Computer Science studies. Dived into modern React ecosystems, component-driven UI architecture, REST APIs, and database fundamentals.",
-      kh: "បង្កើតគម្រោងជាច្រើនក្នុងអំឡុងពេលសិក្សាផ្នែក Computer Science។ សិក្សាលើ React Ecosystem, Component Architecture, REST APIs និងមូលដ្ឋានទិន្នន័យ។",
+      en: "Immersed in modern React architecture, component state patterns, Tailwind CSS styling, and client web projects. Built responsive platforms such as YGH AGRIC and experimental labs like Minh Web Fun.",
+      kh: "សិក្សា React, State Patterns, Tailwind CSS និងទទួលធ្វើគម្រោងគេហទំព័រជាក់ស្តែងដូចជា YGH AGRIC និងគេហទំព័រពិសោធន៍ Minh Web Fun។",
     },
     skills: ["React", "Tailwind CSS", "Bootstrap", "REST APIs", "Node.js", "SQL"],
     highlight: {
-      en: "Created responsive client platforms and personal experiments like Minh Web Fun.",
-      kh: "បង្កើតគេហទំព័រអាជីវកម្ម និងគម្រោងពិសោធន៍ផ្ទាល់ខ្លួនដូចជា Minh Web Fun។",
+      en: "Delivered production client websites with responsive reliability.",
+      kh: "សម្រេចការដាក់ឱ្យប្រើប្រាស់គេហទំព័រអាជីវកម្មជាក់ស្តែង។",
     }
   },
   {
     year: "2025",
-    title: {
-      en: "Enterprise Backend, SaaS & Cloud Systems",
-      kh: "ប្រព័ន្ធ Backend កម្រិត Enterprise, SaaS & Cloud",
-    },
+    role: { en: "Backend Architect & SaaS Engineering", kh: "វិស្វកម្ម Backend & ប្រព័ន្ធ SaaS" },
+    title: { en: "Enterprise Spring Boot, MySQL & Payment Gateways", kh: "Spring Boot, MySQL & ប្រព័ន្ធទូទាត់ប្រាក់" },
     description: {
-      en: "Expanded into enterprise-grade Java & Spring Boot, scalable database systems (MySQL, PostgreSQL, Redis), containerization with Docker, and cloud deployments on Vercel & Railway.",
-      kh: "ពង្រីកសមត្ថភាពលើ Java & Spring Boot, ប្រព័ន្ធ Database (MySQL, PostgreSQL, Redis), Containerization ជាមួយ Docker និងការ Deploy លើ Vercel & Railway។",
+      en: "Engineered robust backend systems using Java and Spring Boot. Integrated relational database schemas, connection pooling with MySQL, Redis caching, Docker containerization, and webhook workflows.",
+      kh: "អភិវឌ្ឍប្រព័ន្ធ Backend ជាមួយ Java & Spring Boot។ រៀបចំ Database MySQL, Redis Cache, Docker និងការតភ្ជាប់ Webhook ទូទាត់ប្រាក់ ABA PayWay។",
     },
-    skills: ["Spring Boot", "Java", "Docker", "MySQL", "Redis", "Cloudflare", "Railway"],
+    skills: ["Spring Boot", "Java", "MySQL", "Redis", "Docker", "Telegram Bot API", "ABA PayWay"],
     highlight: {
-      en: "Architected GoShope platform with automated Telegram notifications and ABA PayWay integration.",
-      kh: "រៀបចំប្រព័ន្ធ GoShope ភ្ជាប់ការជូនដំណឹងស្វ័យប្រវត្តិតាម Telegram Bot និងការទូទាត់ ABA PayWay។",
+      en: "Architected flagship platform GoShope with sub-300ms API responses and automated checkout.",
+      kh: "រៀបចំប្រព័ន្ធ GoShope SaaS ដោយមានល្បឿន API លឿនជាង 300ms និងការជូនដំណឹងស្វ័យប្រវត្តិ។",
     }
   },
   {
     year: "2026",
-    title: {
-      en: "Product Engineering & Professional Growth",
-      kh: "ការបង្កើតផលិតផលពិតប្រាកដ & ការរីកចម្រើនជា Full-Stack Dev",
-    },
+    role: { en: "Full-Stack Engineer & Product Builder", kh: "Full-Stack Engineer & អ្នកបង្កើតផលិតផល" },
+    title: { en: "Scaling Production Platforms & Seeking Opportunities", kh: "ការពង្រីកប្រព័ន្ធ & ការស្វែងរកឱកាសការងារ" },
     description: {
-      en: "Building real-world products, scaling live digital platforms, and actively seeking software engineering opportunities, internships, and collaborative ventures.",
-      kh: "បង្កើត និងពង្រីកប្រព័ន្ធផលិតផលឌីជីថលដែលកំពុងដំណើរការជាក់ស្តែង ព្រមទាំងត្រៀមខ្លួនសម្រាប់ឱកាសការងារ Software Engineer និងកិច្ចសហការថ្មីៗ។",
+      en: "Focused on scaling digital solutions (TSM Solutions, GoShope), refining software architecture, and actively seeking full-time software engineering roles, internships, and high-impact collaborations.",
+      kh: "ផ្តោតលើការពង្រីកប្រព័ន្ធផលិតផលឌីជីថល ពង្រឹងស្ថាបត្យកម្មកូដ និងត្រៀមខ្លួនសម្រាប់ឱកាសការងារ Software Engineer និងកិច្ចសហការថ្មីៗ។",
     },
-    skills: ["Full-Stack Architecture", "SaaS Engineering", "System Design", "Cloud Infrastructure"],
+    skills: ["System Design", "Full-Stack Engineering", "SaaS Operations", "Cloud Deployments"],
     highlight: {
-      en: "Shipped production-ready solutions (TSM Solutions, GoShope) with 99.9% uptime.",
-      kh: "បញ្ចេញប្រព័ន្ធដំណើរការផ្ទាល់ (TSM Solutions, GoShope) ដោយមានស្ថេរភាព 99.9% Uptime។",
+      en: "Actively available for software developer roles, internships, and contract builds.",
+      kh: "បើកទទួលការងារពេញម៉ោង កម្មសិក្សា និងគម្រោងអភិវឌ្ឍន៍កម្មវិធីកុំព្យូទ័រ។",
     }
   }
 ];

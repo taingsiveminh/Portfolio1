@@ -11,12 +11,14 @@ import Journey from './sections/Journey';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
 import ProjectModal from './components/ProjectModal';
+import CommandPalette from './components/CommandPalette';
 import Toast from './components/Toast';
 
 function PortfolioContent() {
   const [activeSection, setActiveSection] = useState('home');
   const [selectedProject, setSelectedProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [toastState, setToastState] = useState({ visible: false, message: '', type: 'success' });
   const { lang } = useLanguage();
 
@@ -65,12 +67,18 @@ function PortfolioContent() {
       {/* Ambient background particles & grid */}
       <BackgroundGrid />
 
-      {/* Glassmorphic Navbar */}
-      <Navbar activeSection={activeSection} />
+      {/* Glassmorphic Navbar with Command Palette search */}
+      <Navbar
+        activeSection={activeSection}
+        onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
+      />
 
       {/* Main Content Sections */}
       <main className="relative z-10">
-        <Hero />
+        <Hero
+          onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
+          onShowToast={showToast}
+        />
         <About />
         <WhatIDo />
         <Skills />
@@ -87,6 +95,13 @@ function PortfolioContent() {
         project={selectedProject}
         isOpen={isModalOpen}
         onClose={handleCloseModal}
+      />
+
+      {/* Interactive Command Palette (Cmd + K) */}
+      <CommandPalette
+        isOpen={isCommandPaletteOpen}
+        onClose={() => setIsCommandPaletteOpen(false)}
+        onShowToast={showToast}
       />
 
       {/* Global Toast Feedback */}

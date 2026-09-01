@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ArrowUpRight, Code2, Sparkles, Globe } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Command, Search } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageToggle from './LanguageToggle';
 
-export default function Navbar({ activeSection = 'home' }) {
+export default function Navbar({ activeSection = 'home', onOpenCommandPalette }) {
   const { lang, t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -112,8 +112,19 @@ export default function Navbar({ activeSection = 'home' }) {
             })}
           </nav>
 
-          {/* Right Action: Language Switcher & CTA */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* Right Action: Command Palette + Language Switcher + CTA */}
+          <div className="hidden md:flex items-center gap-2.5">
+            {/* Quick Command Palette Button */}
+            <button
+              onClick={onOpenCommandPalette}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/[0.03] hover:bg-white/[0.08] border border-white/[0.08] text-xs text-slate-400 hover:text-slate-200 transition-colors font-mono"
+              title="Search & Quick Actions (⌘K)"
+            >
+              <Search className="w-3.5 h-3.5" />
+              <span>Search</span>
+              <kbd className="px-1.5 py-0.5 rounded bg-white/[0.06] text-[10px] text-slate-400">⌘K</kbd>
+            </button>
+
             <LanguageToggle />
 
             <a
@@ -128,6 +139,14 @@ export default function Navbar({ activeSection = 'home' }) {
 
           {/* Mobile Menu & Language Toggle */}
           <div className="flex md:hidden items-center gap-2">
+            <button
+              onClick={onOpenCommandPalette}
+              className="p-2 rounded-xl text-slate-300 hover:text-white bg-white/[0.04] border border-white/[0.08]"
+              title="Search"
+            >
+              <Search className="w-4 h-4" />
+            </button>
+
             <LanguageToggle />
 
             <button
